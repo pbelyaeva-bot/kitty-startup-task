@@ -4,4 +4,4 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 3000
-CMD ["npx", "ts-node", "frontend.ts"]
+CMD ["npx", "ts-node", "fronted.ts"]
